@@ -30,3 +30,9 @@ E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.M
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Modal\obj\Debug\Timesheet.Modal.csproj.CoreCompileInputs.cache
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Modal\obj\Debug\Timesheet.Modal.dll
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Modal\obj\Debug\Timesheet.Modal.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\bin\Debug\Timesheet.Modal.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\bin\Debug\Timesheet.Modal.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\obj\Debug\Timesheet.Modal.csproj.AssemblyReference.cache
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\obj\Debug\Timesheet.Modal.csproj.CoreCompileInputs.cache
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\obj\Debug\Timesheet.Modal.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\obj\Debug\Timesheet.Modal.pdb

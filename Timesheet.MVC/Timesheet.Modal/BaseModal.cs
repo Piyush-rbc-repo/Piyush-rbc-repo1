@@ -15,5 +15,7 @@ namespace Timesheet.Modal
         public int n_CreatedBy { get; set; }
         public DateTime? d_ModifiedOn { get; set; }
         public int? n_ModifiedBy { get; set; }
+        
+        
     }
 }

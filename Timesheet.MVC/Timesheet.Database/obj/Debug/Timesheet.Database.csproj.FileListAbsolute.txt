@@ -66,3 +66,22 @@ E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.D
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Database\obj\Debug\Timesheet.Database.csproj.CopyComplete
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Database\obj\Debug\Timesheet.Database.dll
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Database\obj\Debug\Timesheet.Database.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\Timesheet.Database.dll.config
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\Timesheet.Database.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\Timesheet.Database.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\EntityFramework.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\EntityFramework.SqlServer.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\Timesheet.Common.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\Timesheet.Modal.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\LinqToExcel.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\Remotion.Data.Linq.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\Timesheet.Common.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\Timesheet.Modal.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\EntityFramework.xml
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\EntityFramework.SqlServer.xml
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Debug\LinqToExcel.xml
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Debug\Timesheet.Database.csproj.AssemblyReference.cache
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Debug\Timesheet.Database.csproj.CoreCompileInputs.cache
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Debug\Timesheet.Database.csproj.CopyComplete
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Debug\Timesheet.Database.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Debug\Timesheet.Database.pdb

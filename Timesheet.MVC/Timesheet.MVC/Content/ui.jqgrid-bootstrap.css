@@ -604,6 +604,8 @@ div.tablediv > .table-bordered {
 }
 #sData span, #cData span { 
 	margin-left: 5px;
+	/*padding-bottom:30px;*/
+	 
 }
 /* End Eorm edit */
 /*.ui-jqgrid .edit-cell {}*/

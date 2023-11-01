@@ -8,14 +8,15 @@ namespace Timesheet.Modal
 {
     public class LookupMasterModal : BaseModal
     {
-        [Display(Name="Master Name")]
+        /*public int? n_Id { get;set }
+        */[Display(Name="Master Name")]
         public int? n_ParentId { get; set; }
         
         [Display(Name = "Parent Code")]
         public int? n_RefId { get; set; }
         
         [Display(Name = "Code")]
-        public string s_MasterCode { get; set; }
+        public string s_MasterCode { get; set; }    
 
         [Display(Name = "Name")]
         public string s_MasterName { get; set; }
@@ -34,6 +35,7 @@ namespace Timesheet.Modal
 
         public int MakerId { get; set; }
         public string ParentName { get; set; }
+        public string CRTypeName { get; set; }
 
     }
 

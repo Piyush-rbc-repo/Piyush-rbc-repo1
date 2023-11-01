@@ -32,18 +32,29 @@ namespace Timesheet.MVC.Controllers
 
         public JsonResult Search(LookupMasterSearchModal modal)
         {
-            List<Modal.LookupMasterModal> result = GetMasterData(modal.MasterName);
+                List<Modal.LookupMasterModal> result = GetMasterData(modal.MasterName);
             
             return Json(result, JsonRequestBehavior.AllowGet);
 
 
 
         }
-
         public ContentResult Master(int parentid)
         {
 
             var Query = _IMasterService.GetAll().Where(x => x.n_ParentId == parentid);
+            string s = "<select>" + string.Join(",", Query.Select(x => "<Option value='" + x.n_Id.ToString() + "'>" + x.s_MasterName + "</option>").ToList()) + "</select>";
+
+
+            return Content(s);
+
+
+        }
+
+        public ContentResult Master1(int parentid,bool IsActive)
+        {
+
+            var Query = _IMasterService.GetAll().Where(x => x.n_ParentId == parentid && x.b_IsActive == IsActive );
             string s = "<select>" + string.Join(",", Query.Select(x => "<Option value='" + x.n_Id.ToString() + "'>" + x.s_MasterName + "</option>").ToList()) + "</select>";
 
 
