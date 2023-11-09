@@ -51,7 +51,7 @@ namespace Timesheet.MVC.Controllers
 
         }
 
-        public ContentResult Master1(int parentid,bool IsActive)
+        public ContentResult GetDropDownValues(int parentid,bool IsActive)
         {
 
             var Query = _IMasterService.GetAll().Where(x => x.n_ParentId == parentid && x.b_IsActive == IsActive );

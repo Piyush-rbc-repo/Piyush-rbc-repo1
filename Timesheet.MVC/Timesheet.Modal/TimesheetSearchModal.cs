@@ -28,6 +28,9 @@ namespace Timesheet.Modal
         [Display(Name = "Resource")]
         public int? Resource { get; set; }
 
+        [Display(Name = "Cr Type")]
+        public string CrType { get; set; }
+
         [Display(Name = "CR Number")]
         public int? Cr { get; set; }
 
@@ -44,6 +47,7 @@ namespace Timesheet.Modal
         public string ResourceName { get; set; }
         public string ProjectName { get; set; }
         public string CrNumber { get; set; }
+        public string CrTypeName { get;set; }
         public string Activity { get; set; }
         public string SubActivity { get; set; }
         public decimal Efforts { get; set; }

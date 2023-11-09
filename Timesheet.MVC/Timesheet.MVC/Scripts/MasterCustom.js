@@ -62,16 +62,16 @@ CrTypeMaster = {
     CRMaster = {
         'ColModal': [
             
-            { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true, editoptions: { size: 8, maxlength: 8 }, editrules: { required: true, custom: [checkUnique, "s_MasterCode"] } },
+            { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true, editoptions: { size: 8, maxlength: 8 }},
 
             { name: "s_MasterName", width: 250, edittype: 'text', editrules: { required: true }, editable: true, editoptions: { size: 8, maxlength: 8 } },
             { name: "s_value5", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
 
-            { name: "n_RefId", index: 'n_RefId', width: 250, editable: true, hidden: true, edittype: 'select', editrules: { edithidden: true }, required: true, editoptions: { dataUrl: '/Master/Master1?parentid=3&IsActive=true', custom_value: myvalue } },
+            { name: "n_RefId", index: 'n_RefId', width: 250, editable: true, hidden: true, edittype: 'select', editrules: { edithidden: true }, required: true, editoptions: { dataUrl: '/Master/GetDropDownValues?parentid=3&IsActive=true', custom_value: myvalue } },
             { name: "ParentName", index: 'ParentName', width: 250, editable: false, edittype: 'hidden', editrules: { edithidden: false }, required: true, editoptions: { dataUrl: '/Master/Master?parentid=3', custom_value: myvalue } },
 
 
-            { name: "s_value6", index: 's_value6', width: 250, editable: true, hidden: true, edittype: 'select', editrules: { edithidden: true }, required: true, editoptions: { dataUrl: '/Master/Master1?parentid=7&IsActive=true', custom_value: myvalue } },
+            { name: "s_value6", index: 's_value6', width: 250, editable: true, hidden: true, edittype: 'select', editrules: { edithidden: true }, required: true, editoptions: { dataUrl: '/Master/GetDropDownValues?parentid=7&IsActive=true', custom_value: myvalue } },
             { name: "CRTypeName", index: 'CRTypeName', width: 250, editable: false, edittype: 'hidden', editrules: { edithidden: false }, required: true, editoptions: { dataUrl: '/Master/Master?parentid=7', custom_value: myvalue } },
 
 
@@ -312,23 +312,7 @@ function myvalue(elem, operation, value) {
     }
 }
 
-function checkUnique(value, s_MasterCode) {
-    alert(1);
-    // Perform an AJAX request to your server to check if the value is unique
-    // You need a server-side endpoint to handle this check and return a response
-    // For example, using jQuery for the AJAX request:
-    return $.ajax({
-        url: '/Master',
-        method: 'POST',
-        data: { column: s_MasterCode, value: value },
-    }).then(function (response) {
-        if (response.isUnique) {
-            return [true, ''];
-        } else {
-            return [false, 'This value is not unique.'];
-        }
-    });
-}
+
 function validateRef(value, ColName, NextRowId, PrevRowId) {
     debugger;
     var SelfId = value;

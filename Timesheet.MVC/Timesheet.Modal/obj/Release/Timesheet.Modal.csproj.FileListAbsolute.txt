@@ -29,3 +29,9 @@ E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.M
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Modal\obj\Release\Timesheet.Modal.csproj.CoreCompileInputs.cache
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Modal\obj\Release\Timesheet.Modal.dll
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Modal\obj\Release\Timesheet.Modal.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\bin\Release\Timesheet.Modal.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\bin\Release\Timesheet.Modal.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\obj\Release\Timesheet.Modal.csproj.AssemblyReference.cache
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\obj\Release\Timesheet.Modal.csproj.CoreCompileInputs.cache
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\obj\Release\Timesheet.Modal.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Modal\obj\Release\Timesheet.Modal.pdb

@@ -237,6 +237,7 @@ namespace Timesheet.MVC.Controllers
             dtTimesheet.Columns["ResourceName"].ColumnName = "Resource Name";
             dtTimesheet.Columns["ProjectName"].ColumnName = "Project";
             dtTimesheet.Columns["CrNumber"].ColumnName = "CR Number";
+            dtTimesheet.Columns["CrTypeName"].ColumnName = "Cr Type";
             dtTimesheet.Columns["Activity"].ColumnName = "Activity";
             dtTimesheet.Columns["SubActivity"].ColumnName = "Sub Activity";
             dtTimesheet.Columns["Efforts"].ColumnName = "Efforts (Hrs)";

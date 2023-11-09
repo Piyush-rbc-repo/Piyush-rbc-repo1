@@ -160,6 +160,7 @@ namespace Timesheet.Database.DataService
                 Comments = x.Field<string>("Comments"),
                 CreatedOn = x.Field<DateTime>("CreatedOn"),
                 CrNumber = x.Field<string>("CrNumber"),
+                CrTypeName = x.Field<string>("CrTypeName"),
                 Efforts = x.Field<decimal>("Efforts"),
                 Efforts_Days = x.Field<decimal>("Efforts_days"),
                 Status = x.Field<string>("Status"),

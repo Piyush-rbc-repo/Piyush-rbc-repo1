@@ -110,3 +110,22 @@ E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.D
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Database\obj\Release\Timesheet.Database.csproj.CopyComplete
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Database\obj\Release\Timesheet.Database.dll
 E:\Sasmita B\RBC_Timesheet\Timesheet.MVC\Timesheet.MVC\Timesheet.MVC\Timesheet.Database\obj\Release\Timesheet.Database.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\Timesheet.Database.dll.config
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\Timesheet.Database.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\Timesheet.Database.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\EntityFramework.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\EntityFramework.SqlServer.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\Timesheet.Common.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\Timesheet.Modal.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\LinqToExcel.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\Remotion.Data.Linq.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\Timesheet.Common.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\Timesheet.Modal.pdb
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\EntityFramework.xml
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\EntityFramework.SqlServer.xml
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\bin\Release\LinqToExcel.xml
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Release\Timesheet.Database.csproj.AssemblyReference.cache
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Release\Timesheet.Database.csproj.CoreCompileInputs.cache
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Release\Timesheet.Database.csproj.CopyComplete
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Release\Timesheet.Database.dll
+C:\VS_code_RBC_Timesheet\Timesheet.MVC\Timesheet.Database\obj\Release\Timesheet.Database.pdb

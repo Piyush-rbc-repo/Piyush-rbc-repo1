@@ -27,27 +27,64 @@ var emptyModal = {
 
 var ActivityMaster = {
     'ColModal': [
-                { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
-                { name: "b_IsActive", width: 130, edittype: 'select', editable: true, required: true, editoptions: { value: "true:Yes;false:No" } },
+        { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
+        { name: "b_IsActive", width: 130, edittype: 'select', editable: true, required: true, editoptions: { value: "true:Yes;false:No" } },
     ],
     'ColNameModal': ["Activity Name", "Active Status"],
     'button': true
 },
 ProjectMaster = {
-    'ColModal': [
+        'ColModal': [
+            { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
+            { name: "s_MasterName", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
+            { name: "value1", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
+            { name: "value2", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
+            { name: "value3", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
+            { name: "s_value5", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
+            { name: "s_value6", width: 130, edittype: 'select', editable: true, required: true, editoptions: { value: "Support:Support;Other:Other" } },
+            { name: "b_IsActive", width: 130, edittype: 'select', editable: true, required: true, editoptions: { value: "true:Yes;false:No" } },
+
+        ],
+        'ColNameModal': ["Project Code", "Project Name", "SDLC Cost", "Dev Cost", "QA Cost", "Onsite Manager Name", "Project Type", "Active Status"],
+        'button': true
+},
+
+CrTypeMaster = {
+        'ColModal': [
                 { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
                 { name: "s_MasterName", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
-                { name: "value1", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
-                { name: "value2", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
-        { name: "value3", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
-        { name: "s_value5", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
-        { name: "s_value6", width: 130, edittype: 'select', editable: true, required: true, editoptions: { value: "Support:Support;Other:Other" } },
+              
                 { name: "b_IsActive", width: 130, edittype: 'select', editable: true, required: true, editoptions: { value: "true:Yes;false:No" } },
-
-    ],
-    'ColNameModal': ["Project Code", "Project Name", "SDLC Cost", "Dev Cost", "QA Cost","Onsite Manager Name","Project Type", "Active Status"],
-    'button': true
+        ],
+        'ColNameModal': ["CR Type Code","CR Type Name","Is Active"],
+        'button': true
 },
+    CRMaster = {
+        'ColModal': [
+            
+            { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true, editoptions: { size: 8, maxlength: 8 }},
+
+            { name: "s_MasterName", width: 250, edittype: 'text', editrules: { required: true }, editable: true, editoptions: { size: 8, maxlength: 8 } },
+            { name: "s_value5", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
+
+            { name: "n_RefId", index: 'n_RefId', width: 250, editable: true, hidden: true, edittype: 'select', editrules: { edithidden: true }, required: true, editoptions: { dataUrl: '/Master/GetDropDownValues?parentid=3&IsActive=true', custom_value: myvalue } },
+            { name: "ParentName", index: 'ParentName', width: 250, editable: false, edittype: 'hidden', editrules: { edithidden: false }, required: true, editoptions: { dataUrl: '/Master/Master?parentid=3', custom_value: myvalue } },
+
+
+            { name: "s_value6", index: 's_value6', width: 250, editable: true, hidden: true, edittype: 'select', editrules: { edithidden: true }, required: true, editoptions: { dataUrl: '/Master/GetDropDownValues?parentid=7&IsActive=true', custom_value: myvalue } },
+            { name: "CRTypeName", index: 'CRTypeName', width: 250, editable: false, edittype: 'hidden', editrules: { edithidden: false }, required: true, editoptions: { dataUrl: '/Master/Master?parentid=7', custom_value: myvalue } },
+
+
+
+            { name: "value1", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
+            { name: "value2", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
+            { name: "value3", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
+            { name: "s_value4", width: 130, edittype: 'checkbox', editable: true, required: true, editoptions: { value: "true:false", defaultValue: "false" } },
+            { name: "b_IsActive", width: 130, edittype: 'checkbox', editable: true, required: true, editoptions: { value: "true:false", defaultValue: "false" } },
+        ],
+        'ColNameModal': ["CR Code", "CR Name", "CR Long Name", "Project", "Project Name", "CR Type", "CR Type", "SDLC Cost", "Dev Cost", "QA Cost", "Is OLS CR", "IsActive"],
+        'button': true
+    },x 
 ResourceMaster = {
     'ColModal': [
                 { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
@@ -65,22 +102,7 @@ ResourceMaster = {
     'ColNameModal': ["Login Id", "Resource Name", "Manager Name", "Manager Name", "Team","RBC Role","Resource Type", "Per Day Cost", "Location", "OLS Rate", "Active Status"],
     'button': true
 },
-CRMaster = {
-    'ColModal': [
-                { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true , editoptions: { size: 8, maxlength: 8 }},
-                { name: "s_MasterName", width: 250, edittype: 'text', editrules: { required: true }, editable: true, editoptions: { size: 8, maxlength: 8 } },
-                { name: "s_value5", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
-                { name: "n_RefId", index: 'n_RefId', width: 250, editable: true, hidden: true, edittype: 'select', editrules: { edithidden: true }, required: true, editoptions: { dataUrl: '/Master/Master?parentid=3', custom_value: myvalue } },
-                { name: "ParentName", index: 'ParentName', width: 250, editable: false, edittype: 'hidden', editrules: { edithidden: false }, required: true, editoptions: { dataUrl: '/Master/Master?parentid=3', custom_value: myvalue } },
-                { name: "value1", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
-                { name: "value2", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
-                { name: "value3", width: 250, edittype: 'text', editrules: { required: true, number: true }, editable: true },
-                { name: "s_value4", width: 130, edittype: 'checkbox', editable: true, required: true, editoptions: { value: "true:false", defaultValue: "false" } },
-                { name: "b_IsActive", width: 130, edittype: 'checkbox', editable: true, required: true, editoptions: { value: "true:false", defaultValue: "false" } },
-    ],
-    'ColNameModal': ["CR Code", "CR Name","CR Long Name", "Project Name", "Project Name", "SDLC Cost", "Dev Cost", "QA Cost", "Is OLS CR", "IsActive"],
-    'button': true
-},
+
 YearMaster = {
     'ColModal': [
                 { name: "s_MasterCode", width: 250, edittype: 'text', editrules: { required: true }, editable: true },
@@ -163,6 +185,7 @@ HolidayMaster = {
 
 mastermodal.push(ActivityMaster);
 mastermodal.push(CRMaster);
+mastermodal.push(CrTypeMaster);
 mastermodal.push(HolidayMaster);
 mastermodal.push(MniMaxDayMaster);
 mastermodal.push(ProjectMaster);
@@ -194,13 +217,15 @@ $(document).ready(function () {
 
 /*======================================Name Functions ======================================================================== */
 function loadGrid(modal) {
-    modal.ColNameModal.push("n_Id")
+/*    alert("Hello");
+*/    modal.ColNameModal.push("n_Id")
     modal.ColModal.push({ name: "n_Id", hidden: true, edittype: 'input', editable: true, editrules: { custom: true, custom_func: validateRef, required: true }, editoptions: { defaultValue: $("#MasterName").val() } });
 
     modal.ColNameModal.push("Master")
     modal.ColModal.push({ name: "n_ParentId", hidden: true, edittype: 'input', editable: true, editrules: { required: true }, editoptions: { defaultValue: $("#MasterName").val() } });
 
     jQuery("#list").jqGrid({
+
         datatype: "local",
         autowidth: true,
         altRows: false,
@@ -222,6 +247,8 @@ function loadGrid(modal) {
 
     });
     if (modal.button == true) {
+/*        alert("Hello1");
+*/
         $('#list').jqGrid('navGrid', '#listPager', parameters, {
             closeAfterEdit: true, afterSubmit: function (response) {
                 debugger;
@@ -284,6 +311,7 @@ function myvalue(elem, operation, value) {
         $('input', elem).val(value);
     }
 }
+
 
 function validateRef(value, ColName, NextRowId, PrevRowId) {
     debugger;
